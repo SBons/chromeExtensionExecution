@@ -1,0 +1,21 @@
+{
+  "name": "Hide Chat",
+  "description": "Hide google chat on click",
+  "version": "1.0",
+  "background": {
+     "scripts": ["background.js"],
+     "persistent": false
+   },
+   "permissions": [
+     "activeTab"
+   ],
+  "browser_action": {
+      "name": "Click to Hide google chat"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": { "default": "Ctrl+Shift+L" }
+    }
+  },
+  "manifest_version": 2
+}
